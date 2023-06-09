@@ -7,6 +7,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Task Savvy</title>
+        <link rel="icon" href="/logo.png" />
       </Head>
       <AuthUserProvider>
         <Component {...pageProps} />
